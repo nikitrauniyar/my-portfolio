@@ -15,7 +15,7 @@ export default function Profile() {
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("/profile.json")
+        fetch("https://nikitrauniyar.github.io/my-portfolio/profile.json")
           .then((result) => {
             if (result.ok) {
               return result.json();
@@ -31,7 +31,7 @@ export default function Profile() {
               "Because of this error, contact section has reverted to default"
             );
             console.error(error);
-            openSource.showGithubProfile = "false";
+            openSource.showGithubProfile = "true";
           });
       };
       getProfileData();
@@ -46,6 +46,7 @@ export default function Profile() {
       <Suspense fallback={renderLoader()}>
         <GithubProfileCard prof={prof} key={prof.id} />
       </Suspense>
+      // <Contact />
     );
   } else {
     return (
