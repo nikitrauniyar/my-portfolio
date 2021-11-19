@@ -48,6 +48,11 @@ export default function Profile() {
       </Suspense>
     );
   } else {
-    return <Contact />;
+    return (
+      <Suspense fallback={renderLoader()}>
+        <GithubProfileCard prof={prof} key={prof.id} />
+      </Suspense>
+    );
+    //<Contact />;
   }
 }
