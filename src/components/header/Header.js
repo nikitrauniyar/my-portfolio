@@ -38,9 +38,6 @@ function Header() {
           <li>
             <a href="#certs">Certfications</a>
           </li>
-          <li>
-            <a href="#blogs">Blogs</a>
-          </li>
           {/*<li>
             <a href="#talks">Talks</a>
           </li>*/}

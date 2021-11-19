@@ -5,23 +5,22 @@ import emoji from "react-easy-emoji";
 // Your Summary And Greeting Section
 
 const greeting = {
-  username: "Bharat Kammakatla",
-  title: "Hi all, I'm Bharat",
+  username: "Nikit Rauniyar",
+  title: "Hi all, I'm Nikit",
   subTitle: emoji(
-    "Front End Developer 👨‍💻 | Test Automation Engineer 🤖 | Tech Writer ✍️ "
+    "Full Stack Software Developer 👨‍💻"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1gsPhoU4Dg-bFSlf3K-SFrKHO0XTBpS0i/view?usp=sharing",
+  resumeLink:"https://1drv.ms/b/s!Ash1-emMte0S8QSNvykoyjwcIU2R",
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/bharatkammakatla",
-  linkedin: "https://www.linkedin.com/in/bharatkammakatla",
-  gmail: "bharatkammakatla@gmail.com",
-  facebook: "https://www.facebook.com/bharat.kammakatla",
-  twitter: "https://twitter.com/Bharat__K",
+  github: "https://github.com/nikitrauniyar",
+  linkedin: "https://www.linkedin.com/in/nikitrauniyar/",
+  mail: "rauniyarnikit@gmail.com",
+  facebook:"https://www.facebook.com/nikitrauniyar",
+  instagram:"https://www.instagram.com/nikitrauniyar"
 };
 
 // Your Skills Section
@@ -29,45 +28,45 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What i do",
   subTitle:
-    "HANDLING ALL TEST AUTOMATION ACTIVITIES AND EXPLORING DATA SCIENCE",
+    "BUILDING WEB APPS WITH MODERN TECHNOLOGIES",
   skills: [
     emoji(
-      "⚡ Designing and developing Test Automation frameworks using Python and Java"
+      "⚡ Developing scalable and reusable front-end components with React.js"
     ),
-    emoji("⚡ End to End automation executions"),
+    emoji("⚡ OAuth 2.0 Configurations using Microsoft and Google"),
     emoji(
-      "⚡ Working on test automation tools like Selenium, Appium, UFT, SoapUI, AutoIT, Katalon Studio, Seetest Mobile Cloud administration, etc"
+      "⚡ Data handling and API calls to back-end with Node.js, Java or Python"
     ),
     emoji(
-      "⚡ Building predictive models to extract insights and make decisions out of data"
+      "⚡ Data processing and storing in databases using SQL or NoSQL"
     ),
   ],
 
   softwareSkills: [
     {
-      skillName: "python",
-      classname: "logos:python",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "java",
-      classname: "logos:java",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "reactJS",
+      skillName: "React.js",
       classname: "simple-icons:react",
       style: {
         color: "#61DAFB",
       },
     },
     {
-      skillName: "maven",
-      classname: "vscode-icons:file-type-maven",
+      skillName: "Node.js",
+      classname: "vscode-icons:file-type-node",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Java",
+      classname: "logos:java",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Python",
+      classname: "logos:python",
       style: {
         backgroundColor: "transparent",
       },
@@ -80,37 +79,29 @@ const skillsSection = {
       },
     },
     {
-      skillName: "jenkins",
-      classname: "vscode-icons:file-type-jenkins",
+      skillName: "MySQL",
+      classname: "logos:mysql",
       style: {
         backgroundColor: "transparent",
       },
     },
     {
-      skillName: "postgres",
+      skillName: "PostgreSQL",
       classname: "logos:postgresql",
       style: {
         backgroundColor: "transparent",
       },
     },
     {
-      skillName: "tensorflow",
-      classname: "logos-tensorflow",
+      skillName: "MongoDB",
+      classname: "simple-icons:mongodb",
       style: {
-        backgroundColor: "transparent",
+        color: "#3FA037",
       },
     },
     {
-      skillName: "keras",
-      classname: "simple-icons:keras",
-      style: {
-        backgroundColor: "white",
-        color: "#D00000",
-      },
-    },
-    {
-      skillName: "flask",
-      classname: "simple-icons:flask",
+      skillName: "Ruby",
+      classname: "logos:ruby",
       style: {
         backgroundColor: "transparent",
       },
@@ -167,97 +158,31 @@ const openSource = {
 const certifications = {
   certifications: [
     {
-      title: "Selenium",
-      subtitle: "- Vskills",
-      logo_path: "vskills-logo.png",
+      title: "Elements of AI",
+      subtitle: "- University of Helsinki & Reaktor",
+      logo_path: "elements-of-ai.png",
       certificate_link:
-        "https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
-      alt_name: "Vskills",
+        "https://certificates.mooc.fi/validate/wbqds5be8c",
+      alt_name: "Elementsofai",
       color_code: "#F6EAEA",
     },
     {
-      title: "Cloud Admin & Automation",
-      subtitle: "- Experitest",
-      logo_path: "seetest-logo.png",
+      title: "Learning MongoDB",
+      subtitle: "- LinkedIn",
+      logo_path: "coursecompletion.png",
       certificate_link:
-        "https://drive.google.com/file/d/1qhh1ZUBB2VPrOaT6bNgiJ5Y2sHmCjvMg/view?usp=drivesdk",
-      alt_name: "Experitest",
+        "https://1drv.ms/u/s!Ash1-emMte0S8QYUwtKVPhGDTso5",
+      alt_name: "MongoDB",
       color_code: "#F0FFDD",
     },
     {
-      title: "Python",
-      subtitle: "- Jose Portilla",
-      logo_path: "pierian-data-logo.png",
+      title: "AI in Fintech",
+      subtitle: "- LinkedIn",
+      logo_path: "coursecompletion.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-a80d6e7c-e753-421d-bcee-5a7bc1769f28/",
-      alt_name: "Pierian-Data",
+        "https://1drv.ms/u/s!Ash1-emMte0S8QfE-iAW947ux0It",
+      alt_name: "Aiinfintech",
       color_code: "#FEF6E6",
-    },
-    {
-      title: "Selenium Python",
-      subtitle: "- Rahul Shetty",
-      logo_path: "rahulshettyacademy-logo.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-e4b66abd-18c6-4bfa-9132-ab22d2bf7ef7/",
-      alt_name: "RahulShettyAcademy",
-      color_code: "#FDE9EA",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- IBM",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://coursera.org/share/893f2210f39f5a60d0463b19b469b808",
-      alt_name: "IBM",
-      color_code: "#E3F1FA",
-    },
-    {
-      title: "ML and DS",
-      subtitle: "- Andrei Neagoie",
-      logo_path: "zero-to-mastery.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-fd118b7d-7436-442c-a7f8-5077c432d596/",
-      alt_name: "Zero To Mastery",
-      color_code: "#FFFDDD",
-    },
-  ],
-};
-
-// Blogs Section
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-  blogs: [
-    {
-      url:
-        "https://blog.bharatkammakatla.com/selenium-python-automation-framework-how-to-build-cke5vij9p012h9ds1fsaocyax",
-      title: "How to build a Selenium Python Automation Framework",
-      description:
-        "Interested in building a test automation framework with selenium and python? If so, check out here !",
-    },
-    {
-      url:
-        "https://blog.bharatkammakatla.com/steps-to-build-a-selenium-java-framework-ckdsi73xg005ga9s1defhemfz",
-      title: "Steps to build a Selenium Java Automation Framework",
-      description:
-        "Interested in building a test automation framework with selenium and java? If so, check out here !",
-    },
-    {
-      url:
-        "https://blog.bharatkammakatla.com/face-expression-recognition-using-keras-and-cnns-ckbevmufo0195dis1dfs10kt1",
-      title: "Building a Machine Learning model to detect human emotions",
-      description:
-        "Are you interested to know how machines detect human emotions? If so, check out here !",
-    },
-    {
-      url:
-        "https://medium.com/@bharatkammakatla/basic-end-to-end-scikit-learn-workflow-cd9e9a50491b?source=friends_link&sk=b828ac262c172abd7508efcbd00e5bd3",
-      title: "Basic End-to-End Scikit-Learn workflow",
-      description:
-        "Do you want to know how a basic end-to-end scikit-learn workflow is implemented ? If so, check out here !",
     },
   ],
 };
@@ -265,9 +190,9 @@ const blogSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+852 51606863",
-  email_address: "bharatkammakatla@gmail.com",
+    "Think I am a good fit for your team or just want to say hi? My Inbox is open for all.",
+  number: "+61 0450092919",
+  email_address: "rauniyarnikit@gmail.com",
 };
 
 export {
@@ -276,7 +201,6 @@ export {
   skillsSection,
   workExperiences,
   openSource,
-  blogSection,
   contactInfo,
   certifications,
 };
