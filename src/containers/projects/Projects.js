@@ -14,7 +14,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("https://nikitrauniyar.github.io/my-portfolio/profile.json")
+      fetch("/profile.json")
         .then((result) => {
           if (result.ok) {
             return result.json();
