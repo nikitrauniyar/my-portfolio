@@ -32,6 +32,7 @@ var data = JSON.stringify({
                  totalCount
                }
                url
+               homepageUrl
                id
                diskUsage
                primaryLanguage {

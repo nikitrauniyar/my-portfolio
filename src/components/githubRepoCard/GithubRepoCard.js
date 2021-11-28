@@ -14,7 +14,7 @@ export default function GithubRepoCard({ repo }) {
         <div
           className="repo-card-div"
           key={repo.node.id}
-          onClick={() => openRepoinNewTab(repo.node.url)}
+          onClick={() => repo.node.homepageUrl!=="" ? openRepoinNewTab(repo.node.homepageUrl) : openRepoinNewTab(repo.node.url)}
         >
           <div className="repo-name-div">
             <svg
