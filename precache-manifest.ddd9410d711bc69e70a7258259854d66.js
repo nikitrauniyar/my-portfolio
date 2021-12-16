@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48ec0d5132254ec96ff5446dc4f6f5f7",
+    "revision": "c2095ca10d701b41cca643f14e61bfa2",
     "url": "/index.html"
   },
   {
-    "revision": "d17c0fc96ae4000b9dcb",
+    "revision": "237beb2ace122639c415",
     "url": "/static/css/3.ce554f52.chunk.css"
   },
   {
-    "revision": "ea8b63d339009081e21c",
+    "revision": "a54f52bcfb2fa657d369",
     "url": "/static/css/4.c8ac464a.chunk.css"
   },
   {
-    "revision": "422ae305f1ce418f2a9f",
-    "url": "/static/css/main.53ec72d2.chunk.css"
+    "revision": "50dcddd387bbcc6e6cec",
+    "url": "/static/css/main.cdfb7bee.chunk.css"
   },
   {
     "revision": "8dc1326846a98a4541c0",
     "url": "/static/js/2.ca7b40b5.chunk.js"
   },
   {
-    "revision": "d17c0fc96ae4000b9dcb",
-    "url": "/static/js/3.381e8d0b.chunk.js"
+    "revision": "237beb2ace122639c415",
+    "url": "/static/js/3.3c62ddfc.chunk.js"
   },
   {
-    "revision": "ea8b63d339009081e21c",
-    "url": "/static/js/4.df3dc1f0.chunk.js"
+    "revision": "a54f52bcfb2fa657d369",
+    "url": "/static/js/4.bd54e422.chunk.js"
   },
   {
-    "revision": "422ae305f1ce418f2a9f",
-    "url": "/static/js/main.6f47c4d0.chunk.js"
+    "revision": "50dcddd387bbcc6e6cec",
+    "url": "/static/js/main.f6427ab7.chunk.js"
   },
   {
-    "revision": "e8450b6b1af17b113b8d",
-    "url": "/static/js/runtime-main.1b66c357.js"
+    "revision": "efa4be01980f6ad06b2b",
+    "url": "/static/js/runtime-main.75d92860.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "5570919a8a82266ce2eda2819ab9d362",
-    "url": "/static/media/Nikit Rauniyar.5570919a.pdf"
+    "revision": "fa04791c0980b099b96a8dfb87636a0a",
+    "url": "/static/media/Nikit's Resume.fa04791c.pdf"
   },
   {
     "revision": "68e841388612be0c5143e2932fb77d4f",
